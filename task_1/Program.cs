@@ -7,6 +7,8 @@ int y = Convert.ToInt32(Console.ReadLine());
 //int z = x, i = 1;
 //while (i < y){
 //    i++;
+//    z = z * x;
+//}
 int z = x;
 for (int i = 1; i < y; i++){
     z = z * x;
