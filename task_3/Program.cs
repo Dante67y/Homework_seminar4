@@ -1,4 +1,6 @@
-﻿int[] array = new int[8];
+﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран
+
+int[] array = new int[8];
 void FillArray(int[] collection)
 {
     int lenght = collection.Length;
@@ -22,3 +24,21 @@ void PrintArray(int[] col)
 
 FillArray(array);
 PrintArray(array);
+
+// Честно признаюсь, решение ниже нашёл в сети
+// Улавливаю суть работы этого кода, но нет полного понимания картины
+
+// int [] numbers = new int[8];
+// Console.Write("[");
+
+// for (int i = 0; i < numbers.Length; i++)
+//  {
+//     numbers [i] = new Random().Next(0, 111);
+//     Console.Write(" " + Method (i) + " ");
+//  }
+// Console.Write("]");
+
+// int Method (int a)
+// {
+//     return numbers[a];
+// }
